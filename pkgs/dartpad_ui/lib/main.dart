@@ -607,7 +607,7 @@ class DartPadAppBar extends StatelessWidget implements PreferredSizeWidget {
             height: toolbarItemHeight,
             child: Row(
               children: [
-                const Logo(width: 32, type: 'dart'),
+                const Logo(width: 32, type: 'polkadart'),
                 const SizedBox(width: denseSpacing),
                 Text(
                   appName,
@@ -661,7 +661,7 @@ class DartPadAppBar extends StatelessWidget implements PreferredSizeWidget {
             _BrightnessButton(
               handleBrightnessChange: widget.handleBrightnessChanged,
             ),
-            const OverflowMenu(),
+            // const OverflowMenu(),
           ],
         );
       },

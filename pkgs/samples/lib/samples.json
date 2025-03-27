@@ -7,44 +7,51 @@
     "path": "lib/default_dart.dart"
   },
   {
+    "category": "Defaults",
+    "icon": "flutter",
+    "id": "flutter",
+    "name": "Flutter snippet",
+    "path": "lib/default_flutter.dart"
+  },
+  {
     "category": "Scale Codec",
-    "icon": "dart",
+    "icon": "polkadart",
     "name": "Integers",
     "path": "lib/scale_codec/integers.dart"
   },
   {
     "category": "Scale Codec",
-    "icon": "dart",
+    "icon": "polkadart",
     "name": "Compact",
     "path": "lib/scale_codec/compact.dart"
   },
   {
     "category": "Scale Codec",
-    "icon": "dart",
+    "icon": "polkadart",
     "name": "Option",
     "path": "lib/scale_codec/option.dart"
   },
   {
     "category": "Scale Codec",
-    "icon": "dart",
+    "icon": "polkadart",
     "name": "BitVec",
     "path": "lib/scale_codec/bitvec.dart"
   },
   {
     "category": "Scale Codec",
-    "icon": "dart",
+    "icon": "polkadart",
     "name": "Enum",
     "path": "lib/scale_codec/enum.dart"
   },
   {
     "category": "Scale Codec",
-    "icon": "dart",
+    "icon": "polkadart",
     "name": "Composite",
     "path": "lib/scale_codec/composite.dart"
   },
   {
     "category": "Scale Codec",
-    "icon": "dart",
+    "icon": "polkadart",
     "name": "Result",
     "path": "lib/scale_codec/result.dart"
   }

@@ -288,9 +288,10 @@ final class Logo extends StatelessWidget {
     final assetPath = switch (_type) {
       'flutter' => 'assets/flutter_logo_192.png',
       'flame' => 'assets/flame_logo_192.png',
+      'polkadart' => 'assets/polkadart_logo_192.png',
       'gemini' => 'assets/gemini_sparkle_192.png',
       'idx' => 'assets/idx_192.png',
-      _ => 'assets/polkadart_logo_192.png',
+      _ => 'assets/dart_logo_192.png',
     };
     return Image.asset(assetPath, width: width);
   }
