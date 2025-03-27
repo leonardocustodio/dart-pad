@@ -113,7 +113,7 @@ class _DartPadAppState extends State<DartPadApp> {
           });
         case _:
           setState(() {
-            themeMode = ThemeMode.light;
+            themeMode = ThemeMode.dark;
           });
       }
     });
