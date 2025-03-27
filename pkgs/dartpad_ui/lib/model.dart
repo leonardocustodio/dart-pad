@@ -593,7 +593,7 @@ class AppServices {
 }
 
 enum Channel {
-  stable('Stable', 'https://runner.polkadart.dev/'),
+  stable('Stable', 'http://189.11.2.138:8080/'),
   beta('Beta', 'https://runner.polkadart.dev/'),
   main('Main', 'https://runner.polkadart.dev/'),
   // This channel is only used for local development.
