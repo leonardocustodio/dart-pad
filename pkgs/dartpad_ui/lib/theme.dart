@@ -21,7 +21,7 @@ const double toolbarHeight = 32.0;
 
 const double toolbarItemHeight = 40.0;
 
-const Color lightPrimaryColor = Color(0xff1967D2);
+const Color lightPrimaryColor = Color(0xffe21a6f);
 const Color lightSurfaceColor = Color(0xFFF5F5F7);
 const Color lightSurfaceVariantColor = Color(0xFFECECF1);
 const Color lightDividerColor = Color(0xFFDCE2E8);
@@ -42,7 +42,7 @@ final Color darkWarningColor = Colors.yellow.shade500;
 final Color darkInfoColor = Colors.blue.shade500;
 final Color darkIssueColor = Colors.grey.shade700;
 
-const Color runButtonColor = Color(0xFF168afd);
+const Color runButtonColor = Color(0xffe21a6f);
 
 const Color subtleColor = Colors.grey;
 
