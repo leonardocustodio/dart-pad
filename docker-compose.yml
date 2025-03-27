@@ -1,0 +1,9 @@
+services:
+  backend:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: pkgs/dart_services/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8080:8080"

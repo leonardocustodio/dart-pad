@@ -597,7 +597,7 @@ enum Channel {
   beta('Beta', 'https://runner.polkadart.dev/'),
   main('Main', 'https://runner.polkadart.dev/'),
   // This channel is only used for local development.
-  localhost('Localhost', 'https://runner.polkadart.dev/');
+  localhost('Localhost', 'http://localhost:8080/');
 
   final String displayName;
   final String url;
