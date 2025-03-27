@@ -1,9 +1,36 @@
 services:
-  backend:
+  stable:
+    container_name: dartpad-stable
     platform: linux/amd64
     build:
       context: .
       dockerfile: pkgs/dart_services/Dockerfile
+      args:
+        channel: stable
     restart: unless-stopped
     ports:
       - "8080:8080"
+
+  beta:
+    container_name: dartpad-beta
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: pkgs/dart_services/Dockerfile
+      args:
+        channel: beta
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+
+  main:
+    container_name: dartpad-main
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: pkgs/dart_services/Dockerfile
+      args:
+        channel: main
+    restart: unless-stopped
+    ports:
+      - "8082:8080"
