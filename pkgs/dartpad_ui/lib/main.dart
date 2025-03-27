@@ -33,7 +33,7 @@ import 'utils.dart';
 import 'versions.dart';
 import 'widgets.dart';
 
-const appName = 'Polkadart';
+const appName = 'Polkadart Playground';
 const smallScreenWidth = 720;
 
 void main() async {
@@ -113,7 +113,7 @@ class _DartPadAppState extends State<DartPadApp> {
           });
         case _:
           setState(() {
-            themeMode = ThemeMode.dark;
+            themeMode = ThemeMode.light;
           });
       }
     });
