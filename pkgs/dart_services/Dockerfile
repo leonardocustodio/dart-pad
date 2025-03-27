@@ -44,4 +44,4 @@ RUN dart compile exe bin/server.dart -o bin/server
 RUN dart run grinder build-project-templates
 
 EXPOSE 8080
-CMD ["/pkgs/dart_services/bin/server"]
+CMD ["/pkgs/dart_services/bin/server", "--redis-url=redis://127.0.0.1:6379"]
