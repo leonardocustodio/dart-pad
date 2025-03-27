@@ -18,3 +18,5 @@ pubspec.lock
 # IDE configuration
 .idea/
 .vscode/
+
+.env
