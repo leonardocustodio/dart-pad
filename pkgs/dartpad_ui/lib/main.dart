@@ -33,7 +33,7 @@ import 'utils.dart';
 import 'versions.dart';
 import 'widgets.dart';
 
-const appName = 'DartPad';
+const appName = 'Polkadart';
 const smallScreenWidth = 720;
 
 void main() async {
@@ -1055,26 +1055,27 @@ class StatusLineWidget extends StatelessWidget {
               ),
             ),
           ),
+          // const SizedBox(width: defaultSpacing),
+          // if (!mobileVersion)
+          //   TextButton(
+          //     onPressed: () {
+          //       const url = 'https://dart.dev/tools/dartpad/privacy';
+          //       url_launcher.launchUrl(Uri.parse(url));
+          //     },
+          //     child: const Row(
+          //       children: [
+          //         Text('Privacy notice'),
+          //         SizedBox(width: denseSpacing),
+          //         Icon(Icons.launch, size: 16),
+          //       ],
+          //     ),
+          //   ),
           const SizedBox(width: defaultSpacing),
           if (!mobileVersion)
             TextButton(
               onPressed: () {
-                const url = 'https://dart.dev/tools/dartpad/privacy';
-                url_launcher.launchUrl(Uri.parse(url));
-              },
-              child: const Row(
-                children: [
-                  Text('Privacy notice'),
-                  SizedBox(width: denseSpacing),
-                  Icon(Icons.launch, size: 16),
-                ],
-              ),
-            ),
-          const SizedBox(width: defaultSpacing),
-          if (!mobileVersion)
-            TextButton(
-              onPressed: () {
-                const url = 'https://github.com/dart-lang/dart-pad/issues';
+                const url =
+                    'https://github.com/leonardocustodio/polkadart/issues';
                 url_launcher.launchUrl(Uri.parse(url));
               },
               child: const Row(

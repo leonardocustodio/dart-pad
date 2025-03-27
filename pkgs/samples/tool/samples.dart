@@ -39,7 +39,7 @@ void main(List<String> args) {
   }
 }
 
-const Set<String> categories = {'Defaults', 'Dart', 'Flutter', 'Ecosystem'};
+const Set<String> categories = {'Defaults', 'Scale Codec'};
 
 class Samples {
   late final List<Sample> samples;

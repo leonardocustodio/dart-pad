@@ -1,11 +1,11 @@
 {
-    "name": "DartPad",
-    "short_name": "DartPad",
+    "name": "Polkadart Playground",
+    "short_name": "Polkadart",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "An online Dart editor with support for console and Flutter apps.",
+    "description": "An online Dart editor with support for Polkadart libraries.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

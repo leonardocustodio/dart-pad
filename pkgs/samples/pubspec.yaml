@@ -17,6 +17,7 @@ dependencies:
   flutter_markdown: ^0.7.6
   google_generative_ai: ^0.4.6
   url_launcher: ^6.3.1
+  polkadart_scale_codec: ^1.4.2
 
 dev_dependencies:
   args: ^2.5.0

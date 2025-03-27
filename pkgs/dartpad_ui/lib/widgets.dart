@@ -290,7 +290,7 @@ final class Logo extends StatelessWidget {
       'flame' => 'assets/flame_logo_192.png',
       'gemini' => 'assets/gemini_sparkle_192.png',
       'idx' => 'assets/idx_192.png',
-      _ => 'assets/dart_logo_192.png',
+      _ => 'assets/polkadart_logo_192.png',
     };
     return Image.asset(assetPath, width: width);
   }
