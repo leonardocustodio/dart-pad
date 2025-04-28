@@ -6,7 +6,8 @@ services:
       context: .
       dockerfile: pkgs/dart_services/Dockerfile
       args:
-        channel: stable
+        FLUTTER_CHANNEL: stable
+        GCLOUD_AUTH: ${GCLOUD_AUTH}
     restart: unless-stopped
     env_file:
       - .env
@@ -22,7 +23,8 @@ services:
       context: .
       dockerfile: pkgs/dart_services/Dockerfile
       args:
-        channel: beta
+        FLUTTER_CHANNEL: beta
+        GCLOUD_AUTH: ${GCLOUD_AUTH}
     restart: unless-stopped
     env_file:
       - .env
@@ -38,7 +40,8 @@ services:
       context: .
       dockerfile: pkgs/dart_services/Dockerfile
       args:
-        channel: main
+        FLUTTER_CHANNEL: main
+        GCLOUD_AUTH: ${GCLOUD_AUTH}
     restart: unless-stopped
     env_file:
       - .env
