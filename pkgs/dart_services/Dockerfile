@@ -50,9 +50,9 @@ RUN gsutil -h "Cache-Control: public, max-age=604800, immutable" cp -z js artifa
 FROM build-dependencies AS dartpad-services
 WORKDIR /pkgs/dart_services
 
-RUN dart pub get
 RUN dart compile exe bin/server.dart -o bin/server
 RUN dart run grinder build-project-templates
+RUN dart run grinder validate-storage-artifacts --bucket=polkadart
 
 EXPOSE 8080
 CMD ["/pkgs/dart_services/bin/server", "--redis-url", "redis://host.docker.internal:6379", "--storage-bucket", "polkadart"]
